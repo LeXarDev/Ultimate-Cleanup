@@ -26,6 +26,7 @@ reg add "%R_Key%\Temporary Files" /v StateFlags0011 /t REG_DWORD /d 00000002 /f
 reg add "%R_Key%\Windows Error Reporting Files" /v StateFlags0011 /t REG_DWORD /d 00000002 /f
 reg add "%R_Key%\Offline Pages Files" /v StateFlags0011 /t REG_DWORD /d 00000002 /f
 reg add "%R_Key%\Recycle Bin" /v StateFlags0011 /t REG_DWORD /d 00000002 /f
+reg add "%R_Key%\Old ChkDsk Files" /v StateFlags0011 /t REG_DWORD /d 00000002 /f
 cleanmgr.exe /sagerun:11
 pause
 
